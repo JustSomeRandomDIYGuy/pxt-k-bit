@@ -211,7 +211,7 @@ namespace k_Bit {
      * set rgb-led brightness
      */
     let L_brightness = 4095;  //control the rgb-led brightness
-    //% block="LED brightness $br"
+    //% block="LED Helligkeit $br"
     //% br.min=0 br.max=255
     //% group="RGB-led" weight=79
     export function LED_brightness(br: number) {
@@ -223,7 +223,7 @@ namespace k_Bit {
     /**
      * set the rgb-led color via the color card
      */
-    //% block="set RGBled $col"
+    //% block="setze RGBled $col"
     //% group="RGB-led" weight=78
     export function Led(col: COLOR) {
         if (!PCA9685_Initialized) {
